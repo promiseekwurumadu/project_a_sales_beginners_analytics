@@ -13,5 +13,5 @@ def basic_cleaning(df: pd.DataFrame) -> pd.DataFrame:
 if __name__ == "__main__":
     df = load_data("data/online_retail.csv")
     clean_df = basic_cleaning(df)
-    print(clean_df.head())
+    print(clean_df.head(7))
 
