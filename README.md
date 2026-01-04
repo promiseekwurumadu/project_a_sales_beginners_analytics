@@ -34,3 +34,13 @@ It allows users to explore sales performance using:
 - Date range slicing
 - Country-level filtering
 - Revenue trends and product-level comparisons
+
+## Architecture
+
+Excel (raw data)
+→ Python cleaning script (`src/load_and_clean_data.py`)
+→ Clean CSV (`data/online_retail_clean.csv`)
+→ PostgreSQL (`online_retail` table)
+→ SQL analysis (`sql/`)
+→ Power BI dashboard (`dashboard/`)
+
