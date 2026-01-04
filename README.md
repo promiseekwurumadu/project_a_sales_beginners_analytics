@@ -27,7 +27,7 @@ This project analyses sales transaction data to answer key business questions re
 
 ## Dashboard
 
-![Sales Analytics Dashboard](dashboard/Screenshot.png)
+![Sales Analytics Dashboard](dashboard/dashboard_overview.png)
 
 An interactive Power BI dashboard connected directly to a PostgreSQL database.
 It allows users to explore sales performance using:
