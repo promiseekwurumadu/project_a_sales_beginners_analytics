@@ -1,6 +1,14 @@
 # project_a_sales_analytics
 Beginner sales analytics project using SQL, Python, PostgreSQL, and Power BI
 # Sales Performance Analytics
+## Project Path
+
+This repository is the first step in a progressive sales analytics series:
+
+**Project 0 (this repo)** →  
+[Project 1 — Intermediate Star Schema & ELT](https://github.com/promiseekwurumadu/project_intermediate_star_schema_elt.git) →  
+[Project 2 — Advanced Sales Analytics & Customer Segmentation](https://github.com/promiseekwurumadu/Project_sales_analytics_advanced.git)
+
 
 ## Project Overview
 This project analyses sales transaction data to answer key business questions related to revenue, customer behaviour, and product performance.
@@ -43,4 +51,17 @@ Excel (raw data)
 → PostgreSQL (`online_retail` table)
 → SQL analysis (`sql/`)
 → Power BI dashboard (`dashboard/`)
+
+## Next Step: Project 1
+
+In Project 1, this sales data is restructured into a proper analytical model using a star schema and ELT principles.
+
+**What Project 1 adds:**
+- Fact and dimension tables
+- Star schema modelling
+- SQL-based transformations
+- Cohort-ready data structures
+
+➡ Continue here:  
+https://github.com/promiseekwurumadu/project_intermediate_star_schema_elt.git
 
